@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - HighSpeed
+  - LowSpeed
+  - Standard
   layers:
   - Default
   - TransparentFX

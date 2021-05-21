@@ -14,7 +14,7 @@ public class LevelGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GenerateLabirynth();
     }
 
     // Update is called once per frame
@@ -25,6 +25,7 @@ public class LevelGenerator : MonoBehaviour
     void GenerateTile(int x, int z)
     {
         Color pixelColor = map.GetPixel(x, z);
+        Debug.Log(pixelColor);
         if (pixelColor.a == 0)
         {
             return;
